@@ -1,0 +1,180 @@
+body{
+	background-color:#f1cdf6;
+}
+
+.navbar{
+	margin-bottom:0;
+	background-color:#2d2d30;
+	border:0;
+	font-size:14px!important;
+	letter-spacing:4px;
+	opacity:0.9;
+}
+
+
+.navbar li a,.navbar .navbar-brand{
+	color:#d5d5d5 !important;
+}
+
+
+.navbar-nav li a:hover{
+	color:rgb(208,42,233)!important;
+}
+
+
+.navbar-nav li.active a{
+	color:#fff !important;
+	background-color:#29292c !important;
+}
+
+
+.navbar-default.navbar-toggle{
+	border-color:transparent;
+}
+
+
+.open .dropdown-toggle{
+	color:#fff;
+	background-color:#555!important;
+}
+
+
+.dropdown-menu li a{
+	color:#000!important;
+}
+
+
+.dropdown-menu li a:hover{
+	background-color:white!important;
+}
+
+
+
+button{
+	background-color:green;
+	color:white;
+	font-weight:bold;
+	border:1px solid black;
+	padding:7px;
+	border-redius:5px;
+}
+
+button:hover{
+	background-color:green;
+	color:white;
+	font-weight:bold;
+	border:1px solid black;
+	padding:7px;
+}
+
+.bg-1{
+	background-color:#2d2d30;
+	color:#bdbdbd;
+}
+
+.bg-1 h3{
+	color:#fff;
+}
+
+.bg-1 p{
+	font-style:italic;
+}
+
+.products{
+	background-color:#E6F9E6!important;
+	padding:20px;
+}
+
+.jumbotron{
+	background-color:#33cc33;
+	color:#ffffff;
+}
+
+
+.price{
+	color:rgb(140,9,9);
+	font-weight:bold;
+	font-size:20px;
+}
+
+.productname{
+	color:#b341ab;
+	font-size:15px;
+	font-family:fantasy;
+}
+
+.productinfo{
+	color:black;
+	font-size:12px;
+}
+
+
+@media only screen and(min-width:601px){
+	.tab{
+		border-redius:10px;
+		background-color:#f1cdf6;
+		font-weight:bold;
+		font-style:normal;
+		font-size:20px;
+		margin-left:20px;
+		margin-right:20px;
+		padding-top:20px;
+		padding-bottom:15px;
+	}
+}
+
+
+
+@media only screen and(max-width:600px){
+	.tab{
+		border-redius:10px;
+		background-color:#f1cdf6;
+		font-weight:bold;
+		font-style:normal;
+		font-size:20px;
+		margin-left:2px;
+		margin-right:2px;
+		padding-top:8px;
+		padding-bottom:8px;
+	}
+}
+
+
+*.icon-blue{
+	color:#b341ab;
+	
+}
+
+*.icon-grey{
+	color:grey;
+}
+
+i{
+	width:70px;
+	height:50px;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+}
+
+.badge:after{
+	content: attr(data-count);
+	position:absolute;
+	background:#b341ab;
+	height:2rem;
+	top:0.15rem;
+	right:15rem;
+	width:2rem;
+	text-align:center;
+	line-height:2rem;
+	font-size:2rem;
+	border-redius:50%;
+	color:#ffffff;
+	border:1px; solid #b341ab;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+
+i.fa::before{
+	font-size:3rem!important;
+}
